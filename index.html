@@ -1,0 +1,71 @@
+<!--
+Atividade 1 de Desenvolvimento Web da UFC Russas
+Aluna: Lila Maria Salvador Frazão
+Matrícula: 510809
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Agendamento Barbearia</title>
+    </head>
+    <body>
+        <main>
+            <!--Questão 1 e 2-->
+            <h1>Agende um atendimento</h1>
+            <form>
+                <p>Selecione data, horário e informe o nome do cliente para criar o agendamento.</p>
+                <img src="imgs/calendar_icon.png" width="20px" alt="ícone de calendário">
+                <label for="data_agendar">Data</label>
+                <input type="date" name="data_agendar">
+                <br>
+                <img src="imgs/client_icon.png" width="20px" alt="ícone de uma pessoa">
+                <label for="cliente_nome">Cliente</label>
+                <input type="text" name="cliente_nome">
+
+                <p><strong>Horários:</strong></p>
+                <ul>
+                    <li><strong>Manhã</strong></li>
+                    <li>09:00</li>
+                    <li>10:00</li>
+                    <li>11:00</li>
+                    <li>12:00</li>
+                    <li><strong>Tarde</strong></li>
+                    <li>13:00</li>
+                    <li>14:00</li>
+                    <li>15:00</li>
+                    <li>16:00</li>
+                    <li>17:00</li>
+                    <li>18:00</li>
+                    <li><strong>Noite</strong></li>
+                    <li>19:00</li>
+                    <li>20:00</li>
+                    <li>21:00</li>
+                </ul>
+
+                <input type="submit" name="agendar" value="Agendar">
+            </form>
+            <br>
+            <!--Questão 3-->
+            <h1>Agendamentos</h1>
+            <p>Visualize os agendamentos de acordo com o dia selecionado.</p>
+            <input type="date" name="data_agendada">
+
+            <p><img src="imgs/morning_icon.png" width="20px" alt="Ícone sol nascendo"> <strong>Manhã</strong> 09h-12h</p>
+            <ul>
+                <li><strong>09:00</strong> Murilo <img src="imgs/cancel_icon.png" width="15px" alt="Ícone para cancelar"></li>
+            </ul>
+
+            <p><img src="imgs/afternoon_icon.png" width="20px" alt="Ícone sol"> <strong>Tarde</strong> 13h-18h</p>
+            <ul>
+                <li><strong>13:00</strong> Pedro <img src="imgs/cancel_icon.png" width="15px" alt="Ícone para cancelar"></li>
+                <li><strong>15:00</strong> Ezequiel <img src="imgs/cancel_icon.png" width="15px" alt="Ícone para cancelar"></li>
+                <li><strong>16:00</strong> Alessandro <img src="imgs/cancel_icon.png" width="15px" alt="Ícone para cancelar"></li>
+            </ul>
+            <p><img src="imgs/evening_icon.png" width="20px" alt="Ícone lua"> <strong>Noite</strong> 19h-21h</p>
+            <ul>
+            </ul>
+        </main>
+    </body>
+</html>
